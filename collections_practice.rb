@@ -42,11 +42,11 @@ def sum_array(array)
 end
   
 def add_s(array)
-  array.each_with_index.collect do |string, index|
+  new_array = array.each_with_index do |string, index|
     unless index == 1
       string << "s"
     end
-    array
+    new_array
   end
 end
   
