@@ -43,7 +43,7 @@ end
   
 def add_s(array)
   array.map do |string|
-    unless string[1]
+    unless array[1]
       string << "s"
     end
   array
