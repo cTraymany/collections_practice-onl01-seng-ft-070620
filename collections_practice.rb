@@ -42,11 +42,7 @@ def sum_array(array)
 end
   
 def add_s(array)
-  array.map do |string|
-    if !array[1]
-      string << "s"
-    end
-  end
+  array.each_with_index.collect{|element, index| }
 end
   
   
